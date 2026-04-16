@@ -107,7 +107,7 @@ The Power BI dashboard includes:
 
 - `datasets/cleaned_dataset/` — Processed datasets used for analysis and visualization  
   - `loneliness_clean_python.csv` — Cleaned dataset from Python preprocessing  
-  - `loneliness_related_dataset.xlsx` — Refined dataset for Power BI  
+  - `loneliness_related_dataset.xlsx` — Subset of original data containing only loneliness-related variables for analysis   
 - `loneliness_analysis_Python.ipynb` — Data cleaning, transformation, and analysis using Python  
 - `loneliness_analysis_powerbi.pbix` — Power BI dashboard file  
 - `dashboard_analysis.pdf` — Exported dashboard preview  
