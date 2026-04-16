@@ -50,25 +50,6 @@ To explore:
 
 ---
 
-## Project Structure
-EU-Loneliness-Analysis
-│
-├── datasets/
-│   ├── cleaned_dataset/
-│   │   ├── loneliness_clean_python.csv
-│   │   └── loneliness_related_dataset.xlsx
-│   │
-│   └── original_dataset/
-│       └── eu_loneliness_survey_eu27_values.csv
-│
-├── loneliness_analysis_Python.ipynb
-├── loneliness_analysis_powerbi.pbix
-├── dashboard_analysis.pdf
-├── README.md
-
-
----
-
 ## Dashboard Features
 
 The Power BI dashboard includes:
@@ -119,6 +100,18 @@ The Power BI dashboard includes:
 - Cross-sectional data (no time-based tracking)  
 - Income data is self-reported  
 
+---
+## Folder Structure
+
+- `datasets/original_dataset/` — Raw EU loneliness survey data (source file)
+
+- `datasets/cleaned_dataset/` — Processed datasets used for analysis and visualization  
+  - `loneliness_clean_python.csv` — Cleaned dataset from Python preprocessing  
+  - `loneliness_related_dataset.xlsx` — Refined dataset for Power BI  
+- `loneliness_analysis_Python.ipynb` — Data cleaning, transformation, and analysis using Python  
+- `loneliness_analysis_powerbi.pbix` — Power BI dashboard file  
+- `dashboard_analysis.pdf` — Exported dashboard preview  
+- `README.md` — Project documentation  
 ---
 
 ## Files Included
